@@ -37,9 +37,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header>
+        {/* <header>
           <HeaderExample />
-        </header>
+        </header> */}
 
         <Container>
           <main className={x['margin-vertical']}>
@@ -47,9 +47,9 @@ export default function RootLayout({
           </main>
         </Container>
 
-        <footer>
+        {/* <footer>
           <FooterExample />
-        </footer>
+        </footer> */}
 
         <ToastContainer
           position="top-right"
